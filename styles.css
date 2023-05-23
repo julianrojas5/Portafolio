@@ -326,7 +326,7 @@ box-shadow: none;
   
   .main img{
     width: min(70%, 350px);
-    max-height: 100%;
+    max-height: auto;
   }
   .contenido{
     display: flex;
