@@ -276,13 +276,25 @@ box-shadow: none;
   display: flex;
   flex-direction: column-reverse;
   }
-  .info-contenido-p{
-  display: none;
-  }
+  
   .main img{
     width: min(70%, 350px);
     height: auto;
   }
-
+  .contenido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-contenido-p{
+    display: none;
+    }
+  .redessociales-main{
+    display: block;
+  }
+  
+ 
+ 
 }
   
