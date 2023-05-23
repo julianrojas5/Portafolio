@@ -162,6 +162,7 @@ span {
   width: 300px;
   height: 390px;
   background-color: rgb(54, 81, 134);
+  align-items: center;
 }
 .tarjeta .card_titulo{
   padding: 1em;
@@ -172,6 +173,7 @@ span {
   height: 150px;
   background-image: url(./img/2-original.png);
   background-size: cover;
+  
 }
 .links_proyectos{
   display: flex;
