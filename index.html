@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 </head>
 <body>
     <div class="wrapper">
@@ -15,19 +15,19 @@
           <div class="brand">
             <h2>JULIAN<span>ROJAS</span></h2>
           </div>
-          <ul class="menu">
-            <li class="active"><a class="active" href="#Inicio">Inicio</a></li>
-            <li><a href="#sobremi">Sobre Mi</a></li>
-            <li><a href="#portfolio">Portafolio</a></li>
-            <li><a href="#seccioncontacto">Contacto</a></li>
+          <ul class="menu" id="menu">
+            <li><a class="active" href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre Mi</a></li>
+            <li><a  href="#portafolio">Portafolio</a></li>
+            <li ><a href="#contacto">Contacto</a></li>
           </ul>
           <div class="activar-menu">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-close"></i>
+            <i class="fas fa-bars" id="abrir-menu"></i>
+            <i class="fas fa-close" id="cerrar-menu"></i>
           </div>
         </nav>
       </header>
-      <main class="main">
+      <main class="main" id="inicio">
         <div class="contenido">
           <span class="info-contenido">Developer</span>
           <h1>Yo soy <span>Julian </span> Rojas</h1>
@@ -37,25 +37,27 @@
             <i class="fab fa-linkedin"></i>
             <i class="fab fa-whatsapp"></i>
           </div>
-          <p class="info-contenido-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis, ipsam fugiat, cum id nihil consectetur distinctio veniam non, aut perspiciatis quibusdam. Necessitatibus provident architecto atque pariatur harum officia error.</p>
+          <p class="info-contenido-p"> Estudiante de programacion, con miras en obtener conocimiento en los mejores lenguajes de programacion, enfocando todo mi aprendizaje de una manera positiva para poder entregar una buena calidad de servicio.</p>
           <a download href="#"> 
             <button class="descargar">Descargar CV</button>
           </a>
         </div>
-        <img src="img/Julian1.png" alt="Julian Rojas Imagen">
+        <img class="imagen-main" src="img/Julian1.png" alt="Julian Rojas Imagen">
       </main>
     </div>
-    <div class="sobremi">
+    <div class="sobremi" id="sobre-mi">
       <img src="img/Julian.png" alt="Julian Rojas Retrato">
       <div class="sobremi-info">
         <h2>Sobre mi</h2>
         <div class="divider"></div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci temporibus officia doloribus atque iusto animi officiis, sint hic, minima quia tempora magnam debitis! Nisi ullam minus ad obcaecati suscipit eius.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui provident nemo quis reiciendis adipisci cumque illum, porro iure amet quisquam totam alias, sed commodi? Nulla labore magnam dolorem perferendis ratione!</p>
+        <p>Mi nombre es Julian Rojas, soy un programador en formacion que se esta preparando para prestar sus servicios de la mejor manera; impulsado siempre por el mejorar
+          y el adquirir los mejores conocimientos con el paso del tiempo.</p>
+        <p>Esta es la creacion de mi proyecto que busca, de esta forma puedan conocer un poco mas de mi trabajo y tambien buscando de dicha manera
+          la facilidad para poder dar a conocerme en este ambito tegnologico de la programacion.</p>
         <button class="descargar"> Leer mas</button>
       </div>
     </div>
-    <div class="portfolio">
+    <div class="portfolio" id="portafolio">
       <div class="portfolio-encabezados">
         <h2>Mi Portafolio</h2>
         <div class="divider"></div>
@@ -93,14 +95,14 @@
 
       </div>
     </div>
-      <div class="seccioncontacto">
+      <div class="seccioncontacto" id="contacto">
         <div class="contacto-encabezados">
           <h2>Contacto</h2>
           <div class="divider"></div>
         </div>
         
          <div class="contenedor-contacto">
-          <img src="img/Julian1.png" alt="">
+          <img class="foto-contacto" src="img/Julian1.png" alt="">
           <div class="contacto-form">
             <h4> Enviar un Mensaje</h4>
             <form class="formulario">
@@ -125,5 +127,6 @@
           <i class="fab fa-whatsapp"></i>
         </div>
       </footer>
+      <script src="scripts.js"></script>
   </body>
 </html>
