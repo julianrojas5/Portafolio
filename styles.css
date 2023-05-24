@@ -129,7 +129,7 @@ span {
 }
 
 .sobremi-info h2{
-  font-size: 2em;
+  font-size: 2.5em;
   color: #191c32;
 }
 
@@ -306,8 +306,8 @@ box-shadow: none;
     transform: translateX(-110%);
     transition: all .5s ease-in-out;
   }
-  .tarjeta {
-    margin-right: 80px;
+  .tarjeta, .sobremi img {
+    margin-right: 70px;
   }
 
   .show-menu {
@@ -331,6 +331,10 @@ box-shadow: none;
 .main, .sobremi {
   display: flex;
   flex-direction: column-reverse;
+  }
+
+  .portfolio-encabezados h2{
+    font-size: 2em;
   }
   
   .main img{
