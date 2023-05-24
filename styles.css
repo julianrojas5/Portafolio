@@ -113,6 +113,7 @@ span {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   width: 100vw;
+  
   align-items: center;
   margin-top: 15px;
   
@@ -146,9 +147,12 @@ span {
   color:black;
   font-weight: 501;
 }
-
+.portfolio{
+  height: 80vh;
+}
 .portfolio-encabezados{
   width: 100vw;
+  height: 80vh;
   padding: 5em;
 }
 
@@ -215,14 +219,15 @@ span {
   margin: 0 auto;
   background-color: #161931;
   color: #fff;
+  height: 80vh;
 }
 .contacto-encabezados{
   font-size: 1.5em;
 }
 .seccioncontacto img{
   opacity: 10%;
-  width: 750px;
-  height: 700px;
+  width: 650px;
+  height: 580px;
   bottom: 0px;
   
 }
@@ -280,10 +285,37 @@ box-shadow: none;
   background-color: aquamarine;
   
 }
-
+ .seccion-habilidades{
+  color:#161931;
+  margin-bottom: 2em;
+  padding: 2em;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+ }
+ .habilidades-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .seccion-habilidades img{
+  width: 600px;
+  height: 500px;
+  padding: 3em;
+  
+  
+ }
+.titulo{
+  font-size: 2em;
+}
+.seccion-habilidades p {
+  font-weight: 501;
+}
 .contenido-footer,
 .redes-sociales{
   font-size: 1.5em;
+  color: #161931;
 }
 .redes-sociales{
   display: flex;
@@ -332,6 +364,9 @@ box-shadow: none;
   display: flex;
   flex-direction: column-reverse;
   }
+ .sobremi{
+  padding-top: 50px;
+ }
 
   .portfolio-encabezados h2{
     font-size: 2em;
@@ -354,7 +389,7 @@ box-shadow: none;
     align-items: center;
     font-weight: 501;
   }
-  .info-contenido-p,.descargar,.foto-contacto, .frase{
+  .info-contenido-p,.descargar,.foto-contacto, .frase, .seccion-habilidades img{
     display: none;
     }
   .info-contenido {
@@ -370,5 +405,11 @@ box-shadow: none;
   .formulario {
     width: 80vw;
   }
+  .habilidades-info{   
+    margin-top: 30px;
+   }
+   .seccion-habilidades{
+    display: flex;
+   }
 }
   
