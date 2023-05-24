@@ -306,8 +306,8 @@ box-shadow: none;
     transform: translateX(-110%);
     transition: all .5s ease-in-out;
   }
-  .tarjeta, .sobremi img {
-    margin-right: 100px;
+  .tarjeta {
+    margin-right: 80px;
   }
 
   .show-menu {
@@ -335,7 +335,7 @@ box-shadow: none;
   
   .main img{
     width: min(70%, 350px);
-    max-height: 400px;
+    max-height: 300px;
   }
   .contenido{
     display: flex;
