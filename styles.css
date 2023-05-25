@@ -343,7 +343,11 @@ box-shadow: none;
   padding: 1em;
   font-size: 12px;
 }
-
+.tarjeta_img {
+  width: 70vw;
+  background-image: url(./img/2-original.png);
+  
+}
 
   .show-menu {
     transform: translateX(0%);
