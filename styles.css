@@ -174,7 +174,7 @@ span {
 }
 .tarjeta .card_titulo{
   padding: 1em;
-  font-size: 15px;
+  font-size: 14px;
 }
 .tarjeta_img{
   width: 100%;
@@ -339,7 +339,10 @@ box-shadow: none;
 .tarjeta{
   height: 350px;
 }
-
+.tarjeta .card_titulo {
+  padding: 1em;
+  font-size: 14px;
+}
 
 
   .show-menu {
